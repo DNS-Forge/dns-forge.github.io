@@ -1,3 +1,8 @@
+---
+title: utils
+sidebar_position: 1
+---
+
 <a name="setSafeHTML"></a>
 
 ## setSafeHTML()
