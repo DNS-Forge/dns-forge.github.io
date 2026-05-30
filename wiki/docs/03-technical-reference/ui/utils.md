@@ -1,3 +1,8 @@
+---
+title: utils
+description: Technical reference for src/ui/utils.js
+---
+
 <a name="setSafeHTML"></a>
 
 ## setSafeHTML()

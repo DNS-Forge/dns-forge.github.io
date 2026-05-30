@@ -1,0 +1,8 @@
+{
+  "name": "dns-forge-wiki-tools",
+  "version": "1.0.0",
+  "private": true,
+  "devDependencies": {
+    "jsdoc-to-markdown": "^8.0.0"
+  }
+}

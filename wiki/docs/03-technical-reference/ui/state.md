@@ -1,3 +1,8 @@
+---
+title: state
+description: Technical reference for src/ui/state.js
+---
+
 <a name="state"></a>
 
 ## state

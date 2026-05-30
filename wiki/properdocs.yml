@@ -25,10 +25,7 @@ nav:
       - Installation: 01-getting-started/installation.md
   - Architecture:
       - Manifest: 02-architecture/manifest.md
-  - Technical Reference:
-      - Background State: 03-technical-reference/background/state.md
-      - UI State: 03-technical-reference/ui/state.md
-      - UI Utils: 03-technical-reference/ui/utils.md
+  - Technical Reference: 03-technical-reference/
 
 markdown_extensions:
   - pymdownx.highlight:
