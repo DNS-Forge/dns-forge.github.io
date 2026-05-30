@@ -1,0 +1,9 @@
+# Python
+venv/
+__pycache__/
+
+# Private/Local
+.source/
+
+# ProperDocs Build Output
+wiki/site/
