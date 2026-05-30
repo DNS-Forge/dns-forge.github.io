@@ -49,28 +49,36 @@ We enforce a **Zero-Regression Mandate** through architectural isolation, ensuri
 
 <div class="grid cards" markdown>
 
--   :material-clock-fast:{ .lg .middle } __Quick Setup__
+-   :material-clock-fast: **Quick Setup**
 
     ---
 
-    Get up and running in seconds. [Installation Guide](01-getting-started/installation.md)
+    Get up and running in seconds.
 
--   :material-file-tree:{ .lg .middle } __Architecture__
+    [:octicons-arrow-right-24: Installation Guide](01-getting-started/installation.md)
 
-    ---
-
-    Deep dive into the modular system. [System Overview](architecture/overview.md)
-
--   :material-test-tube:{ .lg .middle } __Reliability__
+-   :material-file-tree: **Architecture**
 
     ---
 
-    Learn about our ESM-native test suite. [Development](technical/development.md)
+    Deep dive into the modular system.
 
--   :material-api:{ .lg .middle } __API Reference__
+    [:octicons-arrow-right-24: System Overview](architecture/overview.md)
+
+-   :material-test-tube: **Reliability**
 
     ---
 
-    Automated technical documentation. [API Overview](03-technical-reference/viewer.md)
+    Learn about our ESM-native test suite.
+
+    [:octicons-arrow-right-24: Development](technical/development.md)
+
+-   :material-api: **API Reference**
+
+    ---
+
+    Automated technical documentation.
+
+    [:octicons-arrow-right-24: API Overview](03-technical-reference/index.md)
 
 </div>
