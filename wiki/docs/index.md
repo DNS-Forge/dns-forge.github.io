@@ -12,35 +12,38 @@
 
 ---
 
-## 🚀 Key Value Propositions
+## 🚀 Core Capabilities
 
 ### 🧠 Intelligence & Diagnostics
-DNS Forge goes beyond simple UI tweaks. It provides deep visibility into your DNS traffic:
-- **SSE Live Feed:** Zero-latency log streaming via Server-Sent Events. Monitor DNS queries in real-time.
-- **Forge Debugger:** Correlates active tab requests with live logs to identify exactly which blocklist is breaking a site.
-- **Security Auditor:** Proactively scans for security gaps and deprecated lists with an actionable Health Score.
+DNS Forge provides deep visibility into your DNS traffic and automates the identification of configuration issues.
+
+*   **SSE Live Feed:** Zero-latency log streaming via Server-Sent Events for real-time monitoring.
+*   **Forge Debugger:** Correlates active tab requests with live logs to pinpoint breaking blocklists.
+*   **Security Auditor:** Scans profiles for security gaps and deprecated lists with an actionable Health Score.
 
 ### ⚡ Advanced Management
-Built for power users who manage multiple profiles and complex rulesets:
-- **Mirror Mode:** Automatically replicate setting changes across multiple profiles in real-time.
-- **DNS Rewrites Manager:** Full CRUD support for custom domain-to-IP mappings directly from the browser.
-- **Config Presets:** One-click deployment of optimized settings like "Max Privacy" or "Family Safe".
+Built for power users who require precise control over multiple NextDNS profiles and complex rulesets.
+
+*   **Mirror Mode:** Synchronize setting changes across multiple profiles automatically in real-time.
+*   **DNS Rewrites Manager:** Direct CRUD management for custom domain-to-IP mappings.
+*   **Config Presets:** One-click deployment of optimized security and privacy templates.
 
 ### 📡 Reliability & Architecture
-Engineered for stability and performance:
-- **Modular Componentization:** Fully decoupled ES modules for background and UI logic.
-- **Centralized Storage:** Synchronous memory cache with automatic healing.
-- **100% AMO Compliance:** Fully hardened against XSS via strict sanitization and manifest permissions.
+Engineered with a focus on stability, performance, and security compliance.
+
+*   **Modular Componentization:** Fully decoupled ES modules for background and UI logic.
+*   **Centralized Storage Manager:** Synchronous memory cache with automatic data healing.
+*   **AMO Compliance:** Hardened against XSS via strict sanitization and scoped manifest permissions.
 
 ---
 
 ## 🛠️ Engineering Philosophy
 
-We enforce a **Zero-Regression Mandate** via architectural isolation. Every component is designed to be independent, testable, and resilient to changes in the underlying NextDNS dashboard.
+We enforce a **Zero-Regression Mandate** through architectural isolation, ensuring every component is independent and testable.
 
-- **Modular Domains:** Logic is isolated into I/O Parsers, API Clients, and UI Formatters.
-- **Linter Integration:** Integrated Mozilla `addons-linter` verification for every build.
-- **Performance Optimized:** High-performance `MutationObserver` for real-time DOM injections.
+*   **Modular Domains:** Logic is isolated into specialized I/O Parsers, API Clients, and UI Formatters.
+*   **Automated Verification:** Integrated Mozilla `addons-linter` verification for every build artifact.
+*   **Performance Optimization:** Efficient `MutationObserver` implementation for seamless DOM injections.
 
 ---
 

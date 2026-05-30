@@ -1,45 +1,61 @@
 # Core Features
 
-DNS Forge provides a comprehensive suite of tools for NextDNS users, ranging from diagnostic aids to advanced configuration management.
+DNS Forge provides a comprehensive suite of tools for NextDNS users, ranging from real-time diagnostic aids to advanced multi-profile management.
 
 ---
 
 ## 🧠 Intelligence & Diagnostics
 
 ### SSE Live Feed
-Zero-latency log streaming via **Server-Sent Events (SSE)**. Monitor DNS queries in real-time within the Dashboard and Debugger without the delay of traditional polling.
+Zero-latency log streaming via **Server-Sent Events (SSE)**.
+*   **Real-Time Monitoring:** Observe DNS queries as they happen without manual polling.
+*   **Performance:** Significantly lower overhead than traditional interval-based API requests.
 
 ### Forge Debugger
-Identifies exactly which blocklist (OISD, NextDNS, etc.) is breaking a website. It correlates active tab requests with live DNS logs to pinpoint blocking rules instantly.
+Correlates active tab requests with live DNS logs to identify issues.
+*   **List Attribution:** Pinpoint exactly which blocklist (e.g., OISD, NextDNS) is breaking a specific website.
+*   **Accuracy:** Matches tab-level network requests to background DNS resolution events.
 
 ### Security Auditor
-Proactively scans your NextDNS profile for security gaps and deprecated blocklists. It provides an actionable "Health Score" and suggestions for hardening your configuration.
+Proactively scans your NextDNS configuration for vulnerabilities.
+*   **Health Score:** Get an immediate assessment of your security posture.
+*   **Gap Analysis:** Identifies deprecated blocklists and unconfigured security features.
 
 ---
 
 ## ⚡ Advanced Management
 
 ### Mirror Mode
-Automatically replicate setting changes across multiple selected profiles in real-time. Change a setting once, and DNS Forge ensures all your profiles stay in sync.
+Replicate setting changes across multiple selected profiles in real-time.
+*   **Profile Sync:** Modify a setting once and apply it to all linked profiles.
+*   **Efficiency:** Eliminates repetitive configuration tasks for multi-profile users.
 
 ### DNS Rewrites Manager
-Full CRUD support for custom domain-to-IP mappings (e.g., `nas.local` → `192.168.1.50`) directly from the extension popup.
+Full CRUD support for custom domain-to-IP mappings directly from the browser extension.
+*   **Local Management:** Map `nas.local` or other internal domains without leaving your current tab.
+*   **Validation:** Built-in IP and domain format verification.
 
 ### Config Presets
-One-click deployment of optimized settings via the Presets engine. Choose from:
-- **Max Privacy:** Aggressive blocking and security hardening.
-- **Family Safe:** Balanced protection for all ages.
-- **Performance Boost:** Optimized for speed and low resolution latency.
+Deploy optimized settings templates with a single click.
+*   **Max Privacy:** Aggressive security hardening and tracker blocking.
+*   **Family Safe:** Balanced protection for all age groups.
+*   **Performance Boost:** Low-latency resolution and resolution speed optimization.
 
 ---
 
 ## 🔍 Unified Dashboard & UI
 
 ### Analytics Trends
-Visual activity trend indicators (e.g., "📈 15% increase") based on time-series analysis of your query volume, providing immediate insight into network activity changes.
+Visual activity trend indicators integrated into your logs.
+*   **Insights:** View percentage increases or decreases in query volume over time.
+*   **Forensics:** Identify spikes in malicious activity or device-specific anomalies.
 
 ### Real-Time Request Tracking
-Visualizes every request made by the active tab with parent-domain matching and privacy grading, helping you understand what happens behind the scenes of every page load.
+Deep visibility into the network activity of the current tab.
+*   **Privacy Grading:** Every request is graded based on its destination and tracking behavior.
+*   **Parent-Domain Matching:** Understand the hierarchy of requests initiated by a page load.
 
 ### Network Error Suppressor
-Replaces intrusive "Network Error" modals on the NextDNS dashboard with non-intrusive toast notifications, preventing workflow interruptions during stream timeouts.
+Improves the reliability of the NextDNS dashboard.
+*   **Non-Intrusive Notifications:** Replaces disruptive error modals with sleek toast notifications.
+*   **Workflow Integrity:** Ensures your management session isn't interrupted by temporary stream timeouts.
