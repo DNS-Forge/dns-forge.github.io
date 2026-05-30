@@ -1,17 +1,42 @@
-site_name: DNS Forge Wiki
+site_name: DNS Forge Documentation
+site_url: https://dns-forge.github.io
+site_description: High-performance Firefox extension for advanced NextDNS management and diagnostics.
+
 theme:
   name: material
   palette:
-    primary: indigo
-    accent: indigo
-    scheme: slate
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
   features:
     - navigation.tabs
+    - navigation.tabs.sticky
     - navigation.sections
     - navigation.expand
+    - navigation.path
+    - navigation.top
+    - navigation.footer
     - content.code.copy
+    - content.code.annotate
+    - content.tabs.link
     - search.highlight
     - search.share
+    - search.suggest
+    - toc.follow
 
 extra_css:
   - assets/css/theme.css
@@ -21,11 +46,17 @@ plugins:
 
 nav:
   - Home: index.md
-  - Getting Started:
-      - Installation: 01-getting-started/installation.md
+  - Features: features.md
   - Architecture:
-      - Manifest: 02-architecture/manifest.md
-  - Technical Reference: 03-technical-reference/
+      - System Overview: architecture/overview.md
+      - Manifest & Permissions: 02-architecture/manifest.md
+  - Technical Guide:
+      - Engineering Standards: technical/standards.md
+      - Build & Pipeline: technical/build.md
+      - Development & Testing: technical/development.md
+  - API Reference:
+      - Overview: 03-technical-reference/index.md
+  - Setup: 01-getting-started/installation.md
 
 markdown_extensions:
   - pymdownx.highlight:
@@ -34,6 +65,17 @@ markdown_extensions:
       pygments_lang_class: true
   - pymdownx.inlinehilite
   - pymdownx.snippets
-  - pymdownx.superfences
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
   - admonition
   - pymdownx.details
+  - pymdownx.caret
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.keys
+  - attr_list
+  - md_in_html
+  - tables
