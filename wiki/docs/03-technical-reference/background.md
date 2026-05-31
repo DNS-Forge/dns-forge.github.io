@@ -3,9 +3,9 @@ title: background
 description: Technical reference for src/background.js
 ---
 
-# background
+<a name="module_background"></a>
 
-Documentation for `src/background.js` is generated automatically from source code. Currently, no JSDoc comments were found in this file.
+## background
+DNS Forge - Background Engine Index
+Re-exports modular components for browser (ESM) and tests.
 
-### Source Location
-`src/background.js`

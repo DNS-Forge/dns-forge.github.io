@@ -225,8 +225,7 @@ Fetches the currently enabled blocklists for the active profile from the NextDNS
 
 ### viewer~loadMetadataIfNeeded()
 Robust Metadata Loader.
-Attempts to load TLD and Blocklist metadata from local storage, falling back to a remote GitHub URL, 
-and finally a local bundle fallback.
+Wraps the centralized MetadataManager utility.
 
 **Kind**: inner method of [<code>viewer</code>](#module_viewer)  
 <a name="module_viewer..renderList"></a>

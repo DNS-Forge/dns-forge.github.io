@@ -59,3 +59,8 @@ Deep visibility into the network activity of the current tab.
 Improves the reliability of the NextDNS dashboard.
 *   **Non-Intrusive Notifications:** Replaces disruptive error modals with sleek toast notifications.
 *   **Workflow Integrity:** Ensures your management session isn't interrupted by temporary stream timeouts.
+
+### Mobile Dashboard Optimization
+Enhanced responsiveness for the NextDNS management interface.
+*   **Responsive Layout:** Fixes layout breaking on small screens, allowing for on-the-go profile management.
+*   **Collapsible Sections:** Adds header-based section collapsing to the NextDNS dashboard for a cleaner mobile experience.

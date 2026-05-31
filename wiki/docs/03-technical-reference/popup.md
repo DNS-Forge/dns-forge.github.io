@@ -3,9 +3,9 @@ title: popup
 description: Technical reference for src/popup.js
 ---
 
-# popup
+<a name="module_popup"></a>
 
-Documentation for `src/popup.js` is generated automatically from source code. Currently, no JSDoc comments were found in this file.
+## popup
+DNS Forge - Popup UI Index
+Re-exports modular components for browser (ESM) and tests.
 
-### Source Location
-`src/popup.js`

@@ -3,9 +3,34 @@ title: presets
 description: Technical reference for src/ui/presets.js
 ---
 
-# presets
+<a name="module_ui/presets"></a>
 
-Documentation for `src/ui/presets.js` is generated automatically from source code. Currently, no JSDoc comments were found in this file.
+## ui/presets
+DNS Forge - Presets UI Module
 
-### Source Location
-`src/ui/presets.js`
+
+* [ui/presets](#module_ui/presets)
+    * _static_
+        * [.loadPresets()](#module_ui/presets.loadPresets)
+    * _inner_
+        * [~applyPreset(preset)](#module_ui/presets..applyPreset)
+
+<a name="module_ui/presets.loadPresets"></a>
+
+### ui/presets.loadPresets()
+Loads the available configuration presets from data/presets.json and renders them in the UI.
+Attaches click listeners to the "Apply" buttons.
+
+**Kind**: static method of [<code>ui/presets</code>](#module_ui/presets)  
+<a name="module_ui/presets..applyPreset"></a>
+
+### ui/presets~applyPreset(preset)
+Applies a selected preset by sending multiple TOGGLE_SETTING messages to the background.
+Invalidates the blocks data cache upon completion.
+
+**Kind**: inner method of [<code>ui/presets</code>](#module_ui/presets)  
+
+| Param | Type | Description |
+| --- | --- | --- |
+| preset | <code>Object</code> | The preset object containing settings, blocklists, etc. |
+
