@@ -49,14 +49,14 @@ nav:
   - Features: features.md
   - Architecture:
       - System Overview: architecture/overview.md
-      - Manifest & Permissions: 02-architecture/manifest.md
+      - Manifest & Permissions: architecture/manifest.md
   - Technical Guide:
       - Engineering Standards: technical/standards.md
       - Build & Pipeline: technical/build.md
       - Development & Testing: technical/development.md
   - API Reference:
-      - Overview: 03-technical-reference/index.md
-  - Setup: 01-getting-started/installation.md
+      - Overview: reference/index.md
+  - Setup: installation.md
 
 markdown_extensions:
   - pymdownx.highlight:

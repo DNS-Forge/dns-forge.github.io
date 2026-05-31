@@ -55,7 +55,7 @@ We enforce a **Zero-Regression Mandate** through architectural isolation, ensuri
 
     Get up and running in seconds.
 
-    [:octicons-arrow-right-24: Installation Guide](01-getting-started/installation.md)
+    [:octicons-arrow-right-24: Installation Guide](installation.md)
 
 -   :material-file-tree: **Architecture**
 
@@ -79,6 +79,6 @@ We enforce a **Zero-Regression Mandate** through architectural isolation, ensuri
 
     Automated technical documentation.
 
-    [:octicons-arrow-right-24: API Overview](03-technical-reference/index.md)
+    [:octicons-arrow-right-24: API Overview](reference/index.md)
 
 </div>
