@@ -9,6 +9,7 @@ All notable changes to the **DNS Forge Wiki** will be documented in this file.
 - **Installation Status:** Updated installation guide to reflect pending AMO review status.
 
 ### Changed
+- **GPLv3 Licensing:** Re-licensed the wiki and associated tools to **GPLv3** for consistency with the main extension.
 - **Flattened URL Structure:** Removed numbered subdirectories (`01-getting-started`, `02-architecture`, `03-technical-reference`) in favor of cleaner paths like `/installation/` and `/reference/`.
 
 ## [1.2.0] - 2025-05-30

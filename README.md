@@ -56,4 +56,4 @@ To preview the wiki locally:
 ---
 
 ## 📜 License
-This documentation is licensed under the MIT License.
+This documentation and the underlying generator logic are licensed under the **GNU General Public License v3 (GPLv3)**.
