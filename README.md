@@ -10,9 +10,9 @@ The wiki is built using **ProperDocs (Material for MkDocs)**, providing a high-p
 
 ### **Documentation Tracks**
 1.  **Home & Features:** High-level overview of core capabilities and value propositions.
-2.  **Architecture:** Deep dives into the modular engine, security model, and data flow (utilizing Mermaid.js).
+2.  **Architecture:** Deep dives into the modular engine, security model, and data flow (utilizing Mermaid.js sequence diagrams).
 3.  **Technical Guide:** Detailed engineering standards, AMO compliance protocols, and build pipeline documentation.
-4.  **API Reference:** Automatically generated technical documentation extracted directly from the extension's source code.
+4.  **API Reference:** Automatically generated technical documentation extracted directly from the extension's source code (achieving **100% coverage** across all core modules).
 
 ---
 
