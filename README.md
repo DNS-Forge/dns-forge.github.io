@@ -1,60 +1,25 @@
-# 🛡️ DNS Forge Wiki
+# 🛡️ DNS Forge Wiki (Migrated)
 
-This repository contains the source code and documentation for the [DNS Forge Wiki](https://dns-forge.github.io), the official documentation portal for the DNS Forge Firefox Extension.
-
----
-
-## 🏗️ Architecture
-
-The wiki is built using **ProperDocs (Material for MkDocs)**, providing a high-performance, mobile-responsive documentation experience with a "Bare Metal" technical aesthetic.
-
-### **Documentation Tracks**
-1.  **Home & Features:** High-level overview of core capabilities and value propositions.
-2.  **Architecture:** Deep dives into the modular engine, security model, and data flow (utilizing Mermaid.js sequence diagrams).
-3.  **Community & Contributing:** Guidelines for automated agents (AGENTS.md) and standardized feedback via GitHub templates.
-4.  **Technical Guide:** Detailed engineering standards, AMO compliance protocols, and build pipeline documentation.
-5.  **API Reference:** Automatically generated technical documentation extracted directly from the extension's source code (achieving **100% coverage** across all core modules).
+> [!important]
+> **Documentation Notice:** The official DNS Forge documentation wiki has migrated from ProperDocs/MkDocs to our centralized **Quartz** knowledge base at **[wiki.iamrp.dev/dns-forge/](https://wiki.iamrp.dev/dns-forge/)**.
 
 ---
 
-## 📡 Automated Content Generation
-
-The **Technical Reference** section of this wiki is not edited manually. It is synchronized with the main [DNS Forge Repository](https://github.com/DNS-Forge/firefox-addon) via an automated pipeline:
-
-1.  **JSDoc Extraction:** The main repository contains a script `.tools/generate-wiki-content.js` that parses the `src/` directory.
-2.  **Markdown Transformation:** JSDoc comments are transformed into structured Markdown pages.
-3.  **Sync:** The generated files are pushed to this repository's `wiki/docs/03-technical-reference/` directory.
-
-To update the technical documentation, please contribute JSDoc comments directly to the source files in the main repository.
+## 🧭 Live Documentation
+- **Official Quartz Wiki**: [https://wiki.iamrp.dev/dns-forge/](https://wiki.iamrp.dev/dns-forge/)
+- **Main Add-on Repository**: [https://github.com/RPDevs-Builds/nextdns-firefox-addon](https://github.com/RPDevs-Builds/nextdns-firefox-addon)
+- **Sovereign Add-on Hub**: [https://firefox.repo.iamrp.dev/](https://firefox.repo.iamrp.dev/)
 
 ---
 
-## 🚀 Deployment
+## 🏗️ Migration Architecture
 
-This wiki is deployed automatically to GitHub Pages via **GitHub Actions**:
-
-- **Workflow:** `.github/workflows/deploy.yml`
-- **Trigger:** Every push to the `main` branch.
-- **Artifact:** The site is built into a static artifact and served directly from the root of the `main` branch (required for GitHub User Pages).
-
----
-
-## 🛠️ Local Development
-
-To preview the wiki locally:
-
-1.  Clone this repository.
-2.  Install `properdocs` (Material for MkDocs):
-    ```bash
-    pip install mkdocs-material
-    ```
-3.  Run the local server:
-    ```bash
-    properdocs serve -f wiki/properdocs.yml
-    ```
-4.  Open `http://localhost:8000` in your browser.
+The DNS Forge documentation is now unified within the RPDevs Quartz ecosystem:
+- **Quartz Repository**: [`https://github.com/rpdev-cdn/wiki.iamrp.dev`](https://github.com/rpdev-cdn/wiki.iamrp.dev)
+- **Documentation Sub-Path**: `content/dns-forge/`
+- **Features Documented**: v1.2.0 NextDNS PoP Diagnostics, Bounded Concurrency (`mapConcurrent`), Rich Device Attribution, Tab Debugging, and Complete JSDoc API Reference.
 
 ---
 
-## 📜 License
-This documentation and the underlying generator logic are licensed under the **GNU General Public License v3 (GPLv3)**.
+## 📜 Historical Archive
+This repository (`dns-forge.github.io`) is preserved as a historical snapshot of the original ProperDocs deployment. All future documentation updates, JSDoc synchronization, and architecture guides are maintained in `wiki.iamrp.dev`.
